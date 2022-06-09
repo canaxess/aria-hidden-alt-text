@@ -1,10 +1,13 @@
 # Nullified ALT text
 There are situations where ALT text for images must be provided to satisfy SEO requirements, yet rendered hidden for screen reader and other assistive technology users. In this situations applying the `aria-hidden` attribute can nullified the image and remove it from the accessibiltiy tree.
 
-### Expected behaviour
+## Example
+https://canaxess.github.io/aria-hidden-alt-text/
+
+## Expected behaviour
 Image with ALT text is rendered hidden
 
-### Screen reader compatibility
+## Screen reader compatibility
 |   | JAWS <sup>v2021</sup> | NVDA <sup>v2020</sup>  |VoiceOver   |Talkback   | Narrator <sup>Win 10</sup> |
 |---|:-:|:-:|:-:|:-:|:-:|
 | Edge <sup>v100</sup>  | :heavy_check_mark:  |:heavy_check_mark:  | :white_circle:  | :white_circle:  |:white_circle: |
